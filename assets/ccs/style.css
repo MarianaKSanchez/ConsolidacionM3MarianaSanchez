@@ -4,38 +4,32 @@
   font-family: Roboto, open sans;
 }
 
-
 .sidebar {
   width: 20%;
   height: 90vh;
-
 }
-
-
 
 .main {
-    width: 75%;
-    height: 90vh;
-    
+  width: 75%;
+  height: 90vh;
 }
 
-@media (max-width:766px) {
-    .sidebar {
-        width: auto;
-        height: 90vh;
-      }
-      
-      .main {
-          width: auto;
-          height: 90vh;
-      }  
+@media (max-width: 766px) {
+  .sidebar {
+    width: auto;
+    height: 90vh;
+  }
+
+  .main {
+    width: auto;
+    height: 90vh;
+  }
 }
 
 img {
-    width: 50px;
-    border-radius: 50%;
-  }
-
+  width: 50px;
+  border-radius: 50%;
+}
 
 .img__main {
   width: 20%;
